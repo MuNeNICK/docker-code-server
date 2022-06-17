@@ -1,0 +1,14 @@
+version: "3"
+services:
+  code:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    command: code-server --port 8080 --bind-addr=0.0.0.0:8080
+    environment:
+      PASSWORD: ${ENV_CODE_PASSWORD}
+    ports:
+      - 8080:8080
+    volumes:
+      - ./project:/workspace
