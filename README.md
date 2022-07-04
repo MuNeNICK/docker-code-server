@@ -37,6 +37,9 @@ docker-compose cp code:${HOME}/.local/share/code-server ./app
 docker-compose down
 ```
 
+- docker-compose.ymlのコメントアウト解除
+https://github.com/MuNeNICK/docker-code-server/blob/dbb975cf49b18822f9495561df7aa200a75beb93/docker-compose.yml#L15
+
 - 再度コンテナの起動
 ```
 docker-compose up -d
