@@ -12,7 +12,7 @@ RUN apt-get update \
   && echo "export LANG=ja_JP.UTF-8" >> ~/.bashrc
 
 #インストール
-RUN apt-get update && apt-get install -y curl wget
+RUN apt-get update && apt-get install -y curl git
 RUN curl -fsSL https://code-server.dev/install.sh | sh
 
 #Live Share必要パッケージ 必要に応じてコメントアウト解除
