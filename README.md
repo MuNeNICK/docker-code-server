@@ -16,7 +16,7 @@ docker-compose up -d --build
 また、Live Shareを使用する場合は、Dockerfileの該当場所のコメントを解除する必要がある。~~
 
 コンテナ停止後も拡張機能が消えないように修正。
-→　Code－Serverから拡張機能をインストール可能に
+→　**Code－Serverから拡張機能をインストール可能に**
 
 従来どおり、Dockerfileから拡張機能をインストールしたい場合は以下の手順に従う。
 - Dockerfileに拡張機能のインストールを記述。
