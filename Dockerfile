@@ -20,6 +20,10 @@ RUN curl -fsSL https://code-server.dev/install.sh | sh
 #RUN wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb
 #RUN dpkg -i libssl1.1_1.1.0g-2ubuntu4_amd64.deb
 
+#Marp動作に必要なGoogle Chromeのインストール 必要に応じてコメントアウト解除
+#RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+#RUN apt-get update && apt-get install ./google-chrome-stable_current_amd64.deb -y
+
 #コンフィグ書き換え
 ADD config/product.json /usr/lib/code-server/lib/vscode
 
