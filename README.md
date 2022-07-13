@@ -20,4 +20,4 @@ docker-compose up -d --build
 
 # 拡張機能の動作に必要なパッケージのインストール
 Dockerfile内に必要なパッケージのインストールの記述をしてください。
-また、Devフォルダ内にLive ShareやMarp動作に必要なパッケージを含んだDockerfileが含まれているので、必要に応じて使用してください。
+また、devフォルダ内にLive ShareやMarp動作に必要なパッケージを含んだDockerfileが含まれているので、必要に応じて使用してください。
