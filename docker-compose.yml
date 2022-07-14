@@ -11,5 +11,9 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - ./project:/workspace
-      - ./app:/root/.local/share/code-server
+      - type: bind
+        source: "./project"
+        target: "/workspace"
+      - type: bind
+        source: "./app"
+        target: "/root/.local/share/code-server"
