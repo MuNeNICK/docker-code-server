@@ -44,7 +44,7 @@
     }
   }, {
     "name": "ms-vscode.js-debug",
-    "version": "1.68.0",
+    "version": "1.70.0",
     "repo": "https://github.com/microsoft/vscode-js-debug",
     "metadata": {
       "id": "25629058-ddac-4e17-abba-74678e126c5d",
@@ -58,7 +58,7 @@
     }
   }, {
     "name": "ms-vscode.vscode-js-profile-table",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "repo": "https://github.com/microsoft/vscode-js-profile-visualizer",
     "metadata": {
       "id": "7e52b41b-71ad-457b-ab7e-0620f1fc4feb",
@@ -73,7 +73,7 @@
   }],
   "enableTelemetry": true,
   "quality": "stable",
-  "codeServerVersion": "4.4.0",
+  "codeServerVersion": "4.6.0",
   "documentationUrl": "https://go.microsoft.com/fwlink/?LinkID=533484#vscode",
   "keyboardShortcutsUrlMac": "https://go.microsoft.com/fwlink/?linkid=832143",
   "keyboardShortcutsUrlLinux": "https://go.microsoft.com/fwlink/?linkid=832144",
@@ -82,8 +82,8 @@
   "tipsAndTricksUrl": "https://go.microsoft.com/fwlink/?linkid=852118",
   "newsletterSignupUrl": "https://www.research.net/r/vsc-newsletter",
   "linkProtectionTrustedDomains": ["https://open-vsx.org"],
-  "commit": "30d9c6cd9483b2cc586687151bcbcd635f373630",
-  "date": "2022-06-21T22:10:35.010Z",
+  "commit": "2062a59ca1a586d8a6e7bf483841085a94c440a4",
+  "date": "2022-08-17T18:27:38.722Z",
   "extensionsGallery": {
     "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
     "cacheUrl": "https://vscode.blob.core.windows.net/gallery/index",
