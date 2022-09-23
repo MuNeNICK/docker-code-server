@@ -75,9 +75,9 @@
 			}
 		}
 	],
-  "extensionsGallery": {
-    "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-    "cacheUrl": "https://vscode.blob.core.windows.net/gallery/index",
-    "itemUrl": "https://marketplace.visualstuidio.com/items"
-  }
+	"extensionsGallery": {
+	  "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+	  "cacheUrl": "https://vscode.blob.core.windows.net/gallery/index",
+	  "itemUrl": "https://marketplace.visualstuidio.com/items"
+	}
 }
