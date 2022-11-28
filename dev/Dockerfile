@@ -37,4 +37,4 @@ RUN fc-cache -fv
 RUN apt-get update && apt-get install build-essential -y
 
 #コンフィグ書き換え
-RUN sed  -i -e '$ s|}|,\n    "extensionsGallery": {\n        "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",\n        "cacheUrl": "https://vscode.blob.core.windows.net/gallery/index",\n        "itemUrl": "https://marketplace.visualstuidio.com/items"\n    }\n}|g' /usr/lib/code-server/lib/vscode/product.json
+RUN sed -i -e '$ s|}|,\n    "extensionsGallery": {\n        "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",\n        "cacheUrl": "https://vscode.blob.core.windows.net/gallery/index",\n        "itemUrl": "https://marketplace.visualstuidio.com/items"\n    }\n}|g' /usr/lib/code-server/lib/vscode/product.json
